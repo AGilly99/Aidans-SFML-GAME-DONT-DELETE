@@ -133,6 +133,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Downloads\Aidans SFML FINAL\CU4012-2nd-Coursework-Template-main\CU4012-2nd-Coursework-Template-main\CU4012-SFML\Framework\TileManager.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\Aidans SFML FINAL\CU4012-2nd-Coursework-Template-main\CU4012-2nd-Coursework-Template-main\CU4012-SFML\Framework\Tiles.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Framework\BaseLevel.cpp" />
     <ClCompile Include="Framework\Collision.cpp" />
@@ -140,15 +142,15 @@
     <ClCompile Include="Framework\GameState.cpp" />
     <ClCompile Include="Framework\Input.cpp" />
     <ClCompile Include="Framework\World.cpp" />
-    <ClCompile Include="Ground.cpp" />
     <ClCompile Include="Level.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Walls.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\Downloads\Aidans SFML FINAL\CU4012-2nd-Coursework-Template-main\CU4012-2nd-Coursework-Template-main\CU4012-SFML\Framework\TileManager.h" />
+    <ClInclude Include="..\..\..\..\Downloads\Aidans SFML FINAL\CU4012-2nd-Coursework-Template-main\CU4012-2nd-Coursework-Template-main\CU4012-SFML\Framework\Tiles.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Framework\BaseLevel.h" />
     <ClInclude Include="Framework\Collision.h" />
@@ -158,12 +160,10 @@
     <ClInclude Include="Framework\UI.h" />
     <ClInclude Include="Framework\utilities.h" />
     <ClInclude Include="Framework\World.h" />
-    <ClInclude Include="Ground.h" />
     <ClInclude Include="Level.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="Walls.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Framework\DO_NOT_EDIT.txt" />

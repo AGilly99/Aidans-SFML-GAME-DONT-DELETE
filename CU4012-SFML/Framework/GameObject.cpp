@@ -78,58 +78,69 @@ void GameObject::setDebugCollisionBox(float x, float y, float w, float h)
 }
 
 bool GameObject::checkCollision(GameObject* otherBox) {
+
+    // Skip collision detection if both objects are triggers
+    if (isTrigger && otherBox->getIsTrigger()) {
+        return false; // No collision detection between two triggers
+    }
+
+
+
     // Get the collision box for both objects
     sf::FloatRect otherCollisionBox = otherBox->getCollisionBox();
 
     // Use intersects to check if the objects are colliding
-    if (collisionBox.intersects(otherCollisionBox)) 
-    {
-        // Get the half sizes of the two objects
-        sf::Vector2f otherHalfSize = sf::Vector2f(otherCollisionBox.width / 2.0f, otherCollisionBox.height / 2.0f);
-        sf::Vector2f thisHalfSize = sf::Vector2f(collisionBox.width / 2.0f, collisionBox.height / 2.0f);
+    if (collisionBox.intersects(otherCollisionBox)) {
+        // Only adjust positions if neither object is a trigger
+        if (!isTrigger || !otherBox->getIsTrigger()) {
+            // Get the half sizes of the two objects
+            sf::Vector2f otherHalfSize = sf::Vector2f(otherCollisionBox.width / 2.0f, otherCollisionBox.height / 2.0f);
+            sf::Vector2f thisHalfSize = sf::Vector2f(collisionBox.width / 2.0f, collisionBox.height / 2.0f);
 
-        // Calculate the difference in position between the two objects
-        sf::Vector2f otherPos = otherBox->getPosition() + otherHalfSize;
-        sf::Vector2f thisPos = getPosition() + thisHalfSize;
+            // Calculate the difference in position between the two objects
+            sf::Vector2f otherPos = otherBox->getPosition() + otherHalfSize;
+            sf::Vector2f thisPos = getPosition() + thisHalfSize;
 
-        // Calculate the intersection depth in X and Y
-        float deltaX = otherPos.x - thisPos.x;
-        float deltaY = otherPos.y - thisPos.y;
-        float intersectX = abs(deltaX) - (otherHalfSize.x + thisHalfSize.x);
-        float intersectY = abs(deltaY) - (otherHalfSize.y + thisHalfSize.y);
+            // Calculate the intersection depth in X and Y
+            float deltaX = otherPos.x - thisPos.x;
+            float deltaY = otherPos.y - thisPos.y;
+            float intersectX = abs(deltaX) - (otherHalfSize.x + thisHalfSize.x);
+            float intersectY = abs(deltaY) - (otherHalfSize.y + thisHalfSize.y);
 
-        // Calculate the total inverse mass
-        float totalInverseMass = getInverseMass() + otherBox->getInverseMass();
+            // Calculate the total inverse mass
+            float totalInverseMass = getInverseMass() + otherBox->getInverseMass();
 
-        // The push factor is the ratio of the other object's inverse mass to the total inverse mass
-        float push = (totalInverseMass != 0) ? otherBox->getInverseMass() / totalInverseMass : 0.0f;
-        push = std::min(std::max(push, 0.0f), 1.0f); // Clamp push value between 0 and 1
+            // The push factor is the ratio of the other object's inverse mass to the total inverse mass
+            float push = (totalInverseMass != 0) ? otherBox->getInverseMass() / totalInverseMass : 0.0f;
+            push = std::min(std::max(push, 0.0f), 1.0f); // Clamp push value between 0 and 1
 
-        // Adjust positions to resolve collision
-        if (intersectX > intersectY) {
-            if (deltaX > 0.0f) {
-                move(intersectX * (1.0f - push), 0.f);
-                otherBox->move(-intersectX * push, 0.0f);
+            // Adjust positions to resolve collision
+            if (intersectX > intersectY) {
+                if (deltaX > 0.0f) {
+                    move(intersectX * (1.0f - push), 0.f);
+                    otherBox->move(-intersectX * push, 0.0f);
+                }
+                else {
+                    move(-intersectX * (1.0f - push), 0.0f);
+                    otherBox->move(intersectX * push, 0.0f);
+                }
             }
             else {
-                move(-intersectX * (1.0f - push), 0.0f);
-                otherBox->move(intersectX * push, 0.0f);
+                if (deltaY > 0.0f) {
+                    move(0.0f, intersectY * (1.f - push));
+                    otherBox->move(0.0f, -intersectY * push);
+                }
+                else {
+                    move(0.0f, -intersectY * (1.0f - push));
+                    otherBox->move(0.0f, intersectY * push);
+                }
             }
         }
-        else {
-            if (deltaY > 0.0f) {
-                move(0.0f, intersectY * (1.f - push));
-                otherBox->move(0.0f, -intersectY * push);
-            }
-            else {
-                move(0.0f, -intersectY * (1.0f - push));
-                otherBox->move(0.0f, intersectY * push);
-            }
-        }
-        return true;
+        return true; // Colliding
     }
-    return false;
+    return false; // Not colliding
 }
+
 
 // Reponse function, what the sprite does based on collision
 // Colliding object is passed in for information

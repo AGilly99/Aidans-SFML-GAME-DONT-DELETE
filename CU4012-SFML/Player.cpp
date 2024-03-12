@@ -3,7 +3,7 @@
 Player::Player()
 {
 	health = 100;
-	speed = 200;
+	speed = 150;
 
 	if (!texture.loadFromFile("gfx/Mario.png")) //loading Players Texture
 	{

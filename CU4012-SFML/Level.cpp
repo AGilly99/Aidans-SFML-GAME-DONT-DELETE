@@ -23,22 +23,6 @@ Level::Level(sf::RenderWindow* hwnd, Input* in, GameState* gs, World* w)
 	world->AddGameObject(e1);
 
 
-	walls[0].setPosition(1, 0);
-	walls[0].setSize(sf::Vector2f(15, 675));
-	walls[0].setCollisionBox(walls[0].getPosition(), walls[0].getSize());
-
-	world->AddGameObject(walls[0]);
-
-	ground[0].setPosition(0, WINDOWHEIGHT - 50); //setting first floor collider
-	ground[0].setSize(sf::Vector2f(2759, 50));
-	ground[0].setCollisionBox(ground[0].getPosition(), ground[0].getSize());
-	world->AddGameObject(ground[0]);
-
-	ground[1].setPosition(2839, WINDOWHEIGHT - 50);  //second floor collider
-	ground[1].setCollisionBox(ground[1].getPosition(), ground[1].getSize());
-	ground[1].setSize(sf::Vector2f(50, 50));
-	world->AddGameObject(ground[1]);
-
 	world->AddGameObject(p1);
 	world->AddGameObject(e1);
 
@@ -102,10 +86,6 @@ void Level::render()
 	window->draw(e1);
 	window->draw(e1.getDebugCollisionBox());
 
-	//window->draw(walls[0].getDebugCollisionBox());
-
-	//window->draw(ground[0].getDebugCollisionBox());
-	window->draw(ground[1].getDebugCollisionBox());
 
 	tileManager.render(); //comment this if you dont want to see the tiles 
 

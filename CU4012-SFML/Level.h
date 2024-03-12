@@ -10,9 +10,8 @@
 #include <iostream>
 #include "Player.h"
 #include "Enemy.h"
-#include "Ground.h"
 #include "Map.h"
-#include "Walls.h"
+
 
 class Level : public BaseLevel{
 public:
@@ -30,11 +29,7 @@ private:
 	
 	TileManager tileManager;
 
-
-	Ground ground[3];
 	Map BackgroundMap;
 
 	sf::View view;
-
-	Walls walls[2];
 };

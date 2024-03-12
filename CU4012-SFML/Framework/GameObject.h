@@ -77,6 +77,9 @@ public:
 	void UpdatePhysics(sf::Vector2f* gravity,float deltaTime);
 	float restitution = 1;
 
+	void setTrigger(bool trigger) { isTrigger = trigger; }
+	bool getIsTrigger() const { return isTrigger; }
+
 	void setStatic(bool s) { isStatic = s; }
 	bool getStatic() { return isStatic; }
 	void setMass(float m)
@@ -133,6 +136,9 @@ protected:
 private:
 	bool isStatic;
 
+	//for not colliding with other triggers
+	bool isTrigger = false;
+
 	// Physics properties
 	sf::Vector2f force;
 	sf::Vector2f acceleration;
@@ -151,7 +157,4 @@ private:
 
 	std::string tag;
 	std::string collidingTag;
-
-
-	
 };

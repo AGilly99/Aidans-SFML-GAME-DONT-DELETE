@@ -21,5 +21,5 @@ Enemy::Enemy()
 
 void Enemy::update(float dt)
 {
-	move(velocity * speed * dt);
+	//move(velocity * speed * dt);
 }
