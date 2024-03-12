@@ -13,18 +13,21 @@ Level::Level(sf::RenderWindow* hwnd, Input* in, GameState* gs, World* w)
 	p1.setPosition(100, 100);
 	p1.setInput(input);
 
-	e1.setPosition(500, 100);
-
-
+	e1[0].setPosition(500,  636);
+	e1[1].setPosition(1000, 636);
+	e1[2].setPosition(1500, 636);
+	e1[3].setPosition(2000, 636);
+	e1[4].setPosition(2500, 636);
+	e1[5].setPosition(3000, 636);
+	for (int i = 0; i < 6; i++)
+	{
+		world->AddGameObject(e1[i]);
+	}
 
 	BackgroundMap.setWindow(window);
 	BackgroundMap.setInput(input);
 	world->AddGameObject(p1);
-	world->AddGameObject(e1);
 
-
-	world->AddGameObject(p1);
-	world->AddGameObject(e1);
 
 	tileManager.setInput(input);
 	tileManager.setWindow(window);
@@ -67,7 +70,7 @@ void Level::update(float dt)
 		std::cout << "Player is colliding with the enemy\n";
 	}
 
-	//std::cout << "Player Position" << p1.getPosition().x<<std::endl; //getting my position so its easier to set my collider
+	std::cout << "Player Position" << p1.getPosition().y<<std::endl; //getting my position so its easier to set my collider
 
 	tileManager.update(dt);
 }
@@ -82,9 +85,12 @@ void Level::render()
 	window->draw(p1);
 	window->draw(p1.getDebugCollisionBox());
 
+	for (int i = 0; i < 6; i++)
+	{
+		window->draw(e1[i]);
+		window->draw(e1[i].getDebugCollisionBox());
+	}
 
-	window->draw(e1);
-	window->draw(e1.getDebugCollisionBox());
 
 
 	tileManager.render(); //comment this if you dont want to see the tiles 

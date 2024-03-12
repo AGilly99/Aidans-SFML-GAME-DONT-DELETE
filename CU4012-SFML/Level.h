@@ -25,7 +25,7 @@ public:
 private:
 	// Default variables for level class.
 	Player p1;
-	Enemy e1;
+	Enemy e1[6];
 	
 	TileManager tileManager;
 
