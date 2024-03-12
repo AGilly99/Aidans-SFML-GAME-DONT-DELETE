@@ -6,9 +6,6 @@ Menu::Menu(sf::RenderWindow* hwnd, Input* in, GameState* game)
 	input = in;
 	gameState = game;
 
-	Level level(window, input, gameState);
-	level1 = new Level(window, input, gameState);
-
 
 	UIfont.loadFromFile("font/ZOMBIES REBORN.ttf");
 	titleFont.loadFromFile("font/BloodBlocks Project.ttf");
@@ -16,7 +13,7 @@ Menu::Menu(sf::RenderWindow* hwnd, Input* in, GameState* game)
 
 	menu_texture.loadFromFile("gfx/menu.png");
 	menu_sprite.setTexture(menu_texture);
-	menu_sprite.setScale(0.35, 0.32);
+	menu_sprite.setScale(0.5, 0.5);
 
 
 	Title.setFont(titleFont);

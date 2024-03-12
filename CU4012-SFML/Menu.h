@@ -29,8 +29,6 @@ public:
 	Input* input;
 	GameState* gameState;
 
-	Level* level1;
-
 	int selectedItem;
 	sf::Font UIfont;
 	sf::Font titleFont;
