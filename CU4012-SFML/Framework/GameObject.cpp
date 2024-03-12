@@ -84,8 +84,6 @@ bool GameObject::checkCollision(GameObject* otherBox) {
         return false; // No collision detection between two triggers
     }
 
-
-
     // Get the collision box for both objects
     sf::FloatRect otherCollisionBox = otherBox->getCollisionBox();
 

@@ -4,14 +4,15 @@ Tiles::Tiles()
 {
 	setSize(sf::Vector2f(50, 50));
 	setStatic(true);
+	setTrigger(true);
 	//setMass(50.f);
 	editing = true;
 }
 
 void Tiles::update(float dt)
 {
-		// Set the collision box to be the same as the sprite
-		updateCollisionBox(dt);	
+	// Set the collision box to be the same as the sprite
+	updateCollisionBox(dt);
 }
 
 void Tiles::handleInput(float dt)
@@ -23,10 +24,10 @@ void Tiles::handleInput(float dt)
 	}
 
 
-	if(editing)
+	if (editing)
 	{
 		// Move the tile
-		float moveSpeed = 50.0f; // Speed of movement
+		float moveSpeed = 100.0f; // Speed of movement
 
 		if (input->isKeyDown(sf::Keyboard::Left)) {
 			setPosition(getPosition().x - moveSpeed * dt, getPosition().y);
@@ -45,26 +46,23 @@ void Tiles::handleInput(float dt)
 		//Resize the tile
 		if (input->isKeyDown(sf::Keyboard::J))
 		{
-			setSize(sf::Vector2f(getSize().x - 0.5, getSize().y));
-
+			setSize(sf::Vector2f(getSize().x - 0.2, getSize().y));
 		}
 
 
 		if (input->isKeyDown(sf::Keyboard::L))
 		{
-			setSize(sf::Vector2f(getSize().x + 0.5, getSize().y));
-
+			setSize(sf::Vector2f(getSize().x + 0.2, getSize().y));
 		}
 
 		if (input->isKeyDown(sf::Keyboard::I))
 		{
-			setSize(sf::Vector2f(getSize().x, getSize().y - 0.5));
-
+			setSize(sf::Vector2f(getSize().x, getSize().y - 0.2));
 		}
 
 		if (input->isKeyDown(sf::Keyboard::K))
 		{
-			setSize(sf::Vector2f(getSize().x, getSize().y + 0.5));
+			setSize(sf::Vector2f(getSize().x, getSize().y + 0.2));
 		}
 	}
 
