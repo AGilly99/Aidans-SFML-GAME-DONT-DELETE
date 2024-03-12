@@ -1,6 +1,7 @@
 #include "Level.h"
 #include "Framework/utilities.h"
 
+
 //set stuff 
 Level::Level(sf::RenderWindow* hwnd, Input* in, GameState* gs, World* w)
 {
@@ -38,6 +39,21 @@ Level::Level(sf::RenderWindow* hwnd, Input* in, GameState* gs, World* w)
 	ground[1].setSize(sf::Vector2f(50, 50));
 	world->AddGameObject(ground[1]);
 
+	world->AddGameObject(p1);
+	world->AddGameObject(e1);
+
+	tileManager.setInput(input);
+	tileManager.setWindow(window);
+	tileManager.setWorld(world);
+
+	if (!tileManager.loadTiles())
+	{
+		std::cout << "Tiles not found\n";
+	}
+	else
+	{
+		std::cout << "Tiles loaded\n";
+	}
 }
 
 //remove stuff
@@ -54,6 +70,7 @@ void Level::handleInput(float dt)
 		exit(0);
 	}
 	p1.handleInput(dt);
+	tileManager.handleInput(dt);
 }
 
 // Update game objects
@@ -66,7 +83,9 @@ void Level::update(float dt)
 		std::cout << "Player is colliding with the enemy\n";
 	}
 
-	std::cout << "Player Position" << p1.getPosition().x<<std::endl; //getting my position so its easier to set my collider
+	//std::cout << "Player Position" << p1.getPosition().x<<std::endl; //getting my position so its easier to set my collider
+
+	tileManager.update(dt);
 }
 
 // Render level
@@ -87,6 +106,8 @@ void Level::render()
 
 	//window->draw(ground[0].getDebugCollisionBox());
 	window->draw(ground[1].getDebugCollisionBox());
+
+	tileManager.render(); //comment this if you dont want to see the tiles 
 
 	endDraw();
 }

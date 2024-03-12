@@ -4,7 +4,8 @@ Enemy::Enemy()
 {
 	health = 100;
 	speed = 150;
-	velocity.x = 0; //Goombas Movement
+
+	velocity.x = -1;
 
 	if (!texture.loadFromFile("gfx/Goomba.png"))
 	{

@@ -46,17 +46,20 @@ void Tiles::handleInput(float dt)
 		if (input->isKeyDown(sf::Keyboard::J))
 		{
 			setSize(sf::Vector2f(getSize().x - 0.5, getSize().y));
+
 		}
 
 
 		if (input->isKeyDown(sf::Keyboard::L))
 		{
 			setSize(sf::Vector2f(getSize().x + 0.5, getSize().y));
+
 		}
 
 		if (input->isKeyDown(sf::Keyboard::I))
 		{
 			setSize(sf::Vector2f(getSize().x, getSize().y - 0.5));
+
 		}
 
 		if (input->isKeyDown(sf::Keyboard::K))

@@ -5,6 +5,7 @@
 #include "Framework/Input.h"
 #include "Framework/GameState.h"
 #include "Framework/World.h"
+#include "Framework/TileManager.h"
 #include <string>
 #include <iostream>
 #include "Player.h"
@@ -12,6 +13,7 @@
 #include "Ground.h"
 #include "Map.h"
 #include "Walls.h"
+
 class Level : public BaseLevel{
 public:
 	Level(sf::RenderWindow* hwnd, Input* in, GameState* gs, World* w);
@@ -25,6 +27,9 @@ private:
 	// Default variables for level class.
 	Player p1;
 	Enemy e1;
+	
+	TileManager tileManager;
+
 
 	Ground ground[3];
 	Map BackgroundMap;
