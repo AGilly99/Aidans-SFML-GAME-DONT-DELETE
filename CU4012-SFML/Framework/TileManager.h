@@ -20,12 +20,18 @@ class TileManager :
     std::string filePath; // File to store tile data
 
     World* world;
+
+    sf::Texture collectableTexture;
+    sf::Texture platformTexture;
+
+    bool showDebugCollisionBox;
+
 public:
     TileManager();
 
     void update(float dt) override;
     void handleInput(float dt) override;
-    void render();
+    void render(bool editMode);
 
     void saveTiles(const std::vector<std::unique_ptr<Tiles>>& tiles, const std::string& filePath);
     bool loadTiles();
@@ -33,5 +39,14 @@ public:
     std::vector<std::unique_ptr<Tiles>>& getTiles();
 
     void setWorld(World* world) { this->world = world; }
-};
 
+    std::string getFilePath() { return filePath; }
+
+    void setCollectableTexture(std::string path);
+
+    void setPlatformTexture(std::string path);
+
+    void RemoveCollectable();
+
+    void ShowDebugCollisionBox(bool b) { showDebugCollisionBox = b; }
+};

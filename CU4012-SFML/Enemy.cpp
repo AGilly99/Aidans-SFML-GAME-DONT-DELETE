@@ -6,7 +6,7 @@ Enemy::Enemy()
 	health = 100;
 	speed = 150;
 
-	velocity.x = -1;
+	velocity.x = -150;
 
 	if (!texture.loadFromFile("gfx/Goomba.png")) //Loading Goomba Texture
 	{
@@ -16,14 +16,9 @@ Enemy::Enemy()
 	setSize(sf::Vector2f(30, 30));
 	setCollisionBox(getPosition(), getSize());
 	setTag("Enemy");
-	setMass(100.f);
-
+	setMass(50.f);
 }
 
 void Enemy::update(float dt)
 {
-
-	move(velocity * speed * dt);
-
-
 }

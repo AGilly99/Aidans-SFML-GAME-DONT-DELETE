@@ -60,6 +60,9 @@
     <ClCompile Include="Framework\Tiles.cpp">
       <Filter>Framework</Filter>
     </ClCompile>
+    <ClCompile Include="WinScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Level.h">
@@ -106,6 +109,9 @@
     </ClInclude>
     <ClInclude Include="Framework\Tiles.h">
       <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="WinScreen.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

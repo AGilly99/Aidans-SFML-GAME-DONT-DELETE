@@ -4,18 +4,17 @@ class Tiles :
     public GameObject
 {
     bool editing; // To track editing mode
-    bool addedToWorld = false;
+
+    sf::Texture collectableTexture;
+    sf::Texture platformTexture;
 public:
     Tiles();
 
     void handleInput(float dt) override;
     void update(float dt) override;
-    void markAddedToWorld() { addedToWorld = true; }
-
-    bool isAddedToWorld() const {
-        return addedToWorld;
-    }
-
+    void setEditing(bool edit) {
+		editing = edit;
+	}
     bool isEditing() {
 		return editing;
 	}

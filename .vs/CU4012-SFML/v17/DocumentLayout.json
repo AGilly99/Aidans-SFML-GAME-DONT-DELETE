@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\Level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\WinScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\WinScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\WinScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\WinScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\Menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\Level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Framework\\TileManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -21,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Framework\\TileManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\Framework\\TileManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -49,14 +73,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AIG0107\\Downloads\\Aidans SFML FINAL\\CU4012-2nd-Coursework-Template-main\\CU4012-2nd-Coursework-Template-main\\CU4012-SFML\\Framework\\Tiles.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\Level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\Level.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Framework\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1450328A-74E6-4445-9AAC-598BFC4279D2}|CU4012-SFML\\CU4012-SFML.vcxproj|solutionrelative:CU4012-SFML\\Framework\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -71,36 +87,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Player.cpp",
               "RelativeDocumentMoniker": "CU4012-SFML\\Player.cpp",
               "ToolTip": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Player.cpp",
               "RelativeToolTip": "CU4012-SFML\\Player.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-15T10:04:11.593Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Map.cpp",
-              "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Map.cpp",
-              "RelativeDocumentMoniker": "CU4012-SFML\\Map.cpp",
-              "ToolTip": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Map.cpp",
-              "RelativeToolTip": "CU4012-SFML\\Map.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-21T15:22:35.586Z"
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Menu.h",
+              "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Menu.h",
+              "RelativeDocumentMoniker": "CU4012-SFML\\Menu.h",
+              "ToolTip": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Menu.h",
+              "RelativeToolTip": "CU4012-SFML\\Menu.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-21T21:43:00.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WinScreen.cpp",
+              "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\WinScreen.cpp",
+              "RelativeDocumentMoniker": "CU4012-SFML\\WinScreen.cpp",
+              "ToolTip": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\WinScreen.cpp",
+              "RelativeToolTip": "CU4012-SFML\\WinScreen.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-21T21:42:57.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WinScreen.h",
+              "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\WinScreen.h",
+              "RelativeDocumentMoniker": "CU4012-SFML\\WinScreen.h",
+              "ToolTip": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\WinScreen.h",
+              "RelativeToolTip": "CU4012-SFML\\WinScreen.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-21T21:42:55.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Enemy.h",
               "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Enemy.h",
               "RelativeDocumentMoniker": "CU4012-SFML\\Enemy.h",
@@ -112,32 +156,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Enemy.cpp",
               "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Enemy.cpp",
               "RelativeDocumentMoniker": "CU4012-SFML\\Enemy.cpp",
               "ToolTip": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Enemy.cpp",
               "RelativeToolTip": "CU4012-SFML\\Enemy.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-15T10:04:11.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Main.cpp",
               "RelativeDocumentMoniker": "CU4012-SFML\\Main.cpp",
               "ToolTip": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Main.cpp",
               "RelativeToolTip": "CU4012-SFML\\Main.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEoAAAAdAAAA",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAH0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-15T10:04:11.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Tiles.cpp",
               "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Framework\\Tiles.cpp",
               "RelativeDocumentMoniker": "CU4012-SFML\\Framework\\Tiles.cpp",
@@ -149,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Tiles.h",
               "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Framework\\Tiles.h",
               "RelativeDocumentMoniker": "CU4012-SFML\\Framework\\Tiles.h",
@@ -161,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "TileManager.h",
               "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Framework\\TileManager.h",
               "RelativeDocumentMoniker": "CU4012-SFML\\Framework\\TileManager.h",
@@ -173,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "TileManager.cpp",
               "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Framework\\TileManager.cpp",
               "RelativeDocumentMoniker": "CU4012-SFML\\Framework\\TileManager.cpp",
@@ -185,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Tiles.cpp",
               "DocumentMoniker": "C:\\Users\\AIG0107\\Downloads\\Aidans SFML FINAL\\CU4012-2nd-Coursework-Template-main\\CU4012-2nd-Coursework-Template-main\\CU4012-SFML\\Framework\\Tiles.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AIG0107\\Downloads\\Aidans SFML FINAL\\CU4012-2nd-Coursework-Template-main\\CU4012-2nd-Coursework-Template-main\\CU4012-SFML\\Framework\\Tiles.cpp",
@@ -196,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Tiles.h",
               "DocumentMoniker": "C:\\Users\\AIG0107\\Downloads\\Aidans SFML FINAL\\CU4012-2nd-Coursework-Template-main\\CU4012-2nd-Coursework-Template-main\\CU4012-SFML\\Framework\\Tiles.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AIG0107\\Downloads\\Aidans SFML FINAL\\CU4012-2nd-Coursework-Template-main\\CU4012-2nd-Coursework-Template-main\\CU4012-SFML\\Framework\\Tiles.h",
@@ -207,7 +251,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "Level.cpp",
+              "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Level.cpp",
+              "RelativeDocumentMoniker": "CU4012-SFML\\Level.cpp",
+              "ToolTip": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Level.cpp",
+              "RelativeToolTip": "CU4012-SFML\\Level.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-15T10:04:11.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menu.cpp",
+              "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Menu.cpp",
+              "RelativeDocumentMoniker": "CU4012-SFML\\Menu.cpp",
+              "ToolTip": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Menu.cpp",
+              "RelativeToolTip": "CU4012-SFML\\Menu.cpp",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAgwKkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-21T21:44:34.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "GameState.cpp",
               "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Framework\\GameState.cpp",
               "RelativeDocumentMoniker": "CU4012-SFML\\Framework\\GameState.cpp",
@@ -219,19 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Level.h",
-              "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Level.h",
-              "RelativeDocumentMoniker": "CU4012-SFML\\Level.h",
-              "ToolTip": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Level.h",
-              "RelativeToolTip": "CU4012-SFML\\Level.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-15T10:04:11.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "GameObject.cpp",
               "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Framework\\GameObject.cpp",
               "RelativeDocumentMoniker": "CU4012-SFML\\Framework\\GameObject.cpp",
@@ -243,7 +301,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
+              "Title": "Level.h",
+              "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Level.h",
+              "RelativeDocumentMoniker": "CU4012-SFML\\Level.h",
+              "ToolTip": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Level.h",
+              "RelativeToolTip": "CU4012-SFML\\Level.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-15T10:04:11.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Map.cpp",
+              "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Map.cpp",
+              "RelativeDocumentMoniker": "CU4012-SFML\\Map.cpp",
+              "ToolTip": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Map.cpp",
+              "RelativeToolTip": "CU4012-SFML\\Map.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-21T15:22:35.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "TileManager.cpp",
               "DocumentMoniker": "C:\\Users\\AIG0107\\Downloads\\Aidans SFML FINAL\\CU4012-2nd-Coursework-Template-main\\CU4012-2nd-Coursework-Template-main\\CU4012-SFML\\Framework\\TileManager.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AIG0107\\Downloads\\Aidans SFML FINAL\\CU4012-2nd-Coursework-Template-main\\CU4012-2nd-Coursework-Template-main\\CU4012-SFML\\Framework\\TileManager.cpp",
@@ -252,18 +335,6 @@
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAE8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-15T10:04:11.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Level.cpp",
-              "DocumentMoniker": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Level.cpp",
-              "RelativeDocumentMoniker": "CU4012-SFML\\Level.cpp",
-              "ToolTip": "C:\\Users\\agilg\\OneDrive\\Documents\\GitHub\\Aidans-SFML-GAME-DONT-DELETE\\CU4012-SFML\\Level.cpp",
-              "RelativeToolTip": "CU4012-SFML\\Level.cpp",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAABUAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-15T10:04:11.633Z"
             }
           ]
         }

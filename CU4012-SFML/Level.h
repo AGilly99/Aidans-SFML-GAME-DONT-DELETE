@@ -21,13 +21,22 @@ public:
 	void handleInput(float dt) override;
 	void update(float dt) override;
 	void render();
+	void moveView(float dt);
 
+	void adjustViewToWindowSize(unsigned int width, unsigned int height);
 private:
 	// Default variables for level class.
 	Player p1;
-	Enemy e1[6];
+	Enemy e1[10];
 	
+
+	sf::Text TileEditorText;
+	sf::Text CollectablesCollectedText;
+	sf::Font font;
+
 	TileManager tileManager;
+
+	bool editMode;
 
 	Map BackgroundMap;
 
