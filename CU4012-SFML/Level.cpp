@@ -29,7 +29,7 @@ Level::Level(sf::RenderWindow* hwnd, Input* in, GameState* gs, World* w)
 	CollectablesCollectedText.setString("Collected: ");
 
 	// initialise game objects
-	p1.setPosition(7000, 100);
+	p1.setPosition(100, 100);
 	p1.setInput(input);
 
 	e1[0].setPosition(500,  636);
@@ -41,9 +41,8 @@ Level::Level(sf::RenderWindow* hwnd, Input* in, GameState* gs, World* w)
 	e1[6].setPosition(4000, 636);
 	e1[7].setPosition(4600, 636);
 	e1[8].setPosition(7000, 636);
-	e1[9].setPosition(7200, 636);
-
-	for (int i = 0; i < 10; i++)
+	e1[9].setPosition(7100, 636);
+	for (int i = 0; i < NumberOfEnemies; i++)
 	{
 		world->AddGameObject(e1[i]);
 	}
@@ -123,15 +122,9 @@ void Level::update(float dt)
 
 	std::cout << p1.getPosition().x << std::endl;
 
-	if (p1.getPosition().x > 7888.19)
-	{
-		std::cout << "You Win MOFO" << std::endl;
-		p1.setPosition(sf::Vector2f(100, p1.getPosition().y));
-		gameState->setCurrentState(State::CREDITS);
-		return;
-	}
 
-		for (int i = 0; i < 10; i++)
+
+	for (int i = 0; i < NumberOfEnemies; i++)
 	{
 		if (e1[i].CollisionWithTag("Player"))
 		{
@@ -160,7 +153,7 @@ void Level::update(float dt)
 		CollectablesCollectedText.setString("Collected: " + std::to_string(collectableCount));
 	}
 
-	for (size_t i = 0; i < 6; i++)
+	for (size_t i = 0; i < NumberOfEnemies; i++)
 	{
 		if (e1[i].CollisionWithTag("Wall"))
 		{
@@ -174,6 +167,12 @@ void Level::update(float dt)
 		gameState->setCurrentState(State::MENU);
 	}
 
+	if (p1.getPosition().x > 7888.19)
+	{
+		std::cout << "You Win MOFO" << std::endl;
+		p1.setPosition(sf::Vector2f(100, 100));
+		gameState->setCurrentState(State::CREDITS);
+	}
 	if (editMode)
 	{
 		TileEditorText.setPosition(view.getCenter().x - viewSize.x / 2, view.getCenter().y - viewSize.y / 2);
@@ -201,18 +200,18 @@ void Level::render()
 	beginDraw();
 	
 	window->draw(BackgroundMap);
-	window->draw(TileEditorText);
+	//window->draw(TileEditorText);
 
 	
 	window->draw(p1);
-	window->draw(p1.getDebugCollisionBox());
+	//window->draw(p1.getDebugCollisionBox());
 
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < NumberOfEnemies; i++)
 	{
 		if (e1[i].isAlive())
 		{
 			window->draw(e1[i]);
-			window->draw(e1[i].getDebugCollisionBox());
+			//window->draw(e1[i].getDebugCollisionBox());
 		}
 	}
 

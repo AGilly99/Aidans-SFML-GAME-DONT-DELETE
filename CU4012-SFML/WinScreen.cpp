@@ -12,16 +12,16 @@ WinScreen::WinScreen(sf::RenderWindow* hwnd, Input* in, GameState* game)
 	titleFont.loadFromFile("font/BloodBlocks Project.ttf");
 
 
-	menu_texture.loadFromFile("gfx/WinScreen.png");
+	menu_texture.loadFromFile("gfx/Menu.png");
 	menu_sprite.setTexture(menu_texture);
 	menu_sprite.setScale(0.5, 0.5);
 
 
 	Title.setFont(titleFont);
-	Title.setFillColor(sf::Color::Magenta);
-	Title.setString("YOU WON!!!!!");
+	Title.setFillColor(sf::Color::Yellow);
+	Title.setString("YOU WON!!!");
 	Title.setOutlineColor(sf::Color::Black);
-	Title.setCharacterSize(70);
+	Title.setCharacterSize(60);
 	Title.setPosition(500, 50);
 
 
@@ -119,7 +119,7 @@ int WinScreen::handleInput(float dt)
 		switch (selectedItem) {
 		case 0:
 			std::cout << "Play Button has been pressed" << std::endl;
-			gameState->setCurrentState(State::LEVEL);
+			gameState->setCurrentState(State::MENU);
 			break;
 		case 1:
 			std::cout << "Exit Button has been pressed" << std::endl;
@@ -143,19 +143,12 @@ int WinScreen::handleInput(float dt)
 void WinScreen::render()
 {
 	beginDraw();
-	window->draw(menu_sprite);
+	//window->draw(menu_sprite);
 	window->draw(Title);
 	for (int i = 0; i < 2; i++)
 	{
 		window->draw(UIText[i].text);
 	}
-
-	//Uncomment so debug shapes for the WinScreen text
-	//for (int i = 0; i < 2; i++)
-	//{
-	//	window->draw(UIText[i].getDebugShape());
-	//}
-
 	endDraw();
 }
 

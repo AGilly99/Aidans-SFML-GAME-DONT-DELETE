@@ -27,6 +27,8 @@ public:
 private:
 	// Default variables for level class.
 	Player p1;
+
+	int NumberOfEnemies = 10;
 	Enemy e1[10];
 	
 

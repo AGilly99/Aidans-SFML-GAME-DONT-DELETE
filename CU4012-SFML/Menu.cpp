@@ -17,11 +17,11 @@ Menu::Menu(sf::RenderWindow* hwnd, Input* in, GameState* game)
 
 
 	Title.setFont(titleFont);
-	Title.setFillColor(sf::Color::Magenta);
-	Title.setString("My Game");
+	Title.setFillColor(sf::Color::Yellow);
+	Title.setString("Aidans Super Mario Game");
 	Title.setOutlineColor(sf::Color::Black);
-	Title.setCharacterSize(70);
-	Title.setPosition(500, 50);
+	Title.setCharacterSize(60);
+	Title.setPosition(350, 50);
 
 
 	UIText[0].text.setFont(UIfont);
@@ -141,7 +141,7 @@ int Menu::handleInput(float dt)
 void Menu::render()
 {
 	beginDraw();
-	window->draw(menu_sprite);
+	//window->draw(menu_sprite);
 	window->draw(Title);
 	for (int i = 0; i < 2; i++)
 	{

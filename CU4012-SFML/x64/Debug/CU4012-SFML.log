@@ -4,40 +4,40 @@ C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFM
 C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(28,57): warning C4244:         [
 C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(28,57): warning C4244:             T=unsigned int
 C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(28,57): warning C4244:         ]
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,77): warning C4244:         with
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,77): warning C4244:         [
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,77): warning C4244:             T=unsigned int
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,77): warning C4244:         ]
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,77): warning C4244:         and
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,77): warning C4244:         [
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,77): warning C4244:             T=float
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,77): warning C4244:         ]
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,56): warning C4244:         with
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,56): warning C4244:         [
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,56): warning C4244:             T=unsigned int
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,56): warning C4244:         ]
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,56): warning C4244:         and
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,56): warning C4244:         [
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,56): warning C4244:             T=float
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(71,56): warning C4244:         ]
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,77): warning C4244:         with
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,77): warning C4244:         [
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,77): warning C4244:             T=unsigned int
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,77): warning C4244:         ]
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,77): warning C4244:         and
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,77): warning C4244:         [
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,77): warning C4244:             T=float
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,77): warning C4244:         ]
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,56): warning C4244:         with
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,56): warning C4244:         [
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,56): warning C4244:             T=unsigned int
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,56): warning C4244:         ]
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,56): warning C4244:         and
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,56): warning C4244:         [
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,56): warning C4244:             T=float
-C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(120,56): warning C4244:         ]
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,77): warning C4244:         with
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,77): warning C4244:         [
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,77): warning C4244:             T=unsigned int
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,77): warning C4244:         ]
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,77): warning C4244:         and
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,77): warning C4244:         [
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,77): warning C4244:             T=float
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,77): warning C4244:         ]
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,56): warning C4244:         with
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,56): warning C4244:         [
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,56): warning C4244:             T=unsigned int
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,56): warning C4244:         ]
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,56): warning C4244:         and
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,56): warning C4244:         [
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,56): warning C4244:             T=float
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(70,56): warning C4244:         ]
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,77): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,77): warning C4244:         with
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,77): warning C4244:         [
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,77): warning C4244:             T=unsigned int
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,77): warning C4244:         ]
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,77): warning C4244:         and
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,77): warning C4244:         [
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,77): warning C4244:             T=float
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,77): warning C4244:         ]
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,56): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,56): warning C4244:         with
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,56): warning C4244:         [
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,56): warning C4244:             T=unsigned int
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,56): warning C4244:         ]
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,56): warning C4244:         and
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,56): warning C4244:         [
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,56): warning C4244:             T=float
+C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\CU4012-SFML\Level.cpp(119,56): warning C4244:         ]
   CU4012-SFML.vcxproj -> C:\Users\agilg\OneDrive\Documents\GitHub\Aidans-SFML-GAME-DONT-DELETE\x64\Debug\CU4012-SFML.exe
