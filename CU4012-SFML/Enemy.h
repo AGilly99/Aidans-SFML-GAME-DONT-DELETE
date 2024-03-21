@@ -11,6 +11,8 @@ class Enemy :
 public:
     Enemy();
 
+    void update(float dt, float windowWidth);
+
     void update(float dt);
 };
 

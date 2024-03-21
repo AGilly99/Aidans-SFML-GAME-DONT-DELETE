@@ -2,12 +2,13 @@
 
 Enemy::Enemy()
 {
+
 	health = 100;
 	speed = 150;
 
 	velocity.x = -1;
 
-	if (!texture.loadFromFile("gfx/Goomba.png"))
+	if (!texture.loadFromFile("gfx/Goomba.png")) //Loading Goomba Texture
 	{
 		std::cout << "File not found\n";
 	}
@@ -21,5 +22,8 @@ Enemy::Enemy()
 
 void Enemy::update(float dt)
 {
+
 	move(velocity * speed * dt);
+
+
 }

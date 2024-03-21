@@ -17,15 +17,16 @@ Map::Map()
 
 void Map::update(float dt, sf::Vector2f playerPos)
 {
-	if (input->isKeyDown(sf::Keyboard::A))
-	{
-		view.move(-400 * dt, 0);
+    float movementSpeed = 200.0f; // Adjust this value as needed for desired movement speed
 
-	}
-	if (input->isKeyDown(sf::Keyboard::D))
-	{
-		view.move(400 * dt, 0);
-	}
+    if (input->isKeyDown(sf::Keyboard::A))
+    {
+        view.move(-movementSpeed * dt, 0);
+    }
+    if (input->isKeyDown(sf::Keyboard::D))
+    {
+        view.move(movementSpeed * dt, 0);
+    }
 
-	window->setView(view);
+    window->setView(view);
 }

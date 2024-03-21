@@ -1,4 +1,5 @@
 #include "Player.h"
+#include "Enemy.h"
 
 Player::Player()
 {
@@ -45,4 +46,9 @@ void Player::handleInput(float dt)
 
 void Player::update(float dt)
 {
+
+		// Move the player based on its velocity
+		move(velocity * dt);
+
+
 }
